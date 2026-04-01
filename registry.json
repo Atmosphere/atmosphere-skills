@@ -4,7 +4,7 @@
     {
       "id": "dentist-agent",
       "name": "Dental Emergency Assistant",
-      "description": "Emergency dental assistant — broken teeth, first aid, and triage",
+      "description": "Emergency dental assistant with triage, first aid, and multi-channel delivery",
       "category": "healthcare",
       "tags": ["medical", "dental", "triage", "first-aid", "multi-channel"],
       "path": "skills/dentist-agent/SKILL.md",
@@ -12,8 +12,8 @@
     },
     {
       "id": "startup-ceo",
-      "name": "Startup CEO Agent",
-      "description": "CEO agent that orchestrates a multi-agent startup advisory team via A2A",
+      "name": "Startup CEO Coordinator",
+      "description": "CEO coordinator that dispatches to 4 specialist agents via A2A",
       "category": "business",
       "tags": ["multi-agent", "a2a", "startup", "advisory", "orchestration"],
       "path": "skills/startup-ceo/SKILL.md",
@@ -22,7 +22,7 @@
     {
       "id": "ai-assistant",
       "name": "AI Chat Assistant",
-      "description": "General-purpose AI streaming chat assistant",
+      "description": "Streaming chat assistant with conversation memory",
       "category": "general",
       "tags": ["chat", "streaming", "general-purpose"],
       "path": "skills/ai-assistant/SKILL.md",
@@ -31,27 +31,27 @@
     {
       "id": "classroom",
       "name": "AI Classroom",
-      "description": "Multi-room AI classroom with subject-specific personas",
+      "description": "Multi-room AI classroom where all students see AI responses simultaneously",
       "category": "education",
-      "tags": ["classroom", "multi-room", "education", "personas"],
+      "tags": ["classroom", "multi-room", "education", "broadcast"],
       "path": "skills/classroom/SKILL.md",
       "atmosphere_sample": "spring-boot-ai-classroom"
     },
     {
       "id": "tool-assistant",
       "name": "Tool-Calling Assistant",
-      "description": "AI assistant with framework-agnostic tool calling",
+      "description": "Tool-calling pipeline with cost metering and approval workflows",
       "category": "tools",
-      "tags": ["tools", "function-calling", "weather", "time"],
+      "tags": ["tools", "function-calling", "weather", "time", "cost-metering"],
       "path": "skills/tool-assistant/SKILL.md",
       "atmosphere_sample": "spring-boot-ai-tools"
     },
     {
       "id": "rag-assistant",
-      "name": "RAG Assistant",
-      "description": "RAG-powered assistant with document retrieval and embeddings",
+      "name": "RAG Knowledge Assistant",
+      "description": "Knowledge base assistant with document retrieval and citation",
       "category": "rag",
-      "tags": ["rag", "retrieval", "embeddings", "documents"],
+      "tags": ["rag", "retrieval", "embeddings", "documents", "knowledge-base"],
       "path": "skills/rag-assistant/SKILL.md",
       "atmosphere_sample": "spring-boot-rag-chat"
     }
