@@ -6,54 +6,107 @@
       "name": "Dental Emergency Assistant",
       "description": "Emergency dental assistant with triage, first aid, and multi-channel delivery",
       "category": "healthcare",
-      "tags": ["medical", "dental", "triage", "first-aid", "multi-channel"],
+      "tags": [
+        "medical",
+        "dental",
+        "triage",
+        "first-aid",
+        "multi-channel"
+      ],
       "path": "skills/dentist-agent/SKILL.md",
-      "atmosphere_sample": "spring-boot-dentist-agent"
+      "atmosphere_sample": "spring-boot-dentist-agent",
+      "sha256": "fa78c726e6fd461dd0bf5cea88d65a1e61818486182e5f59e7155496bdba330e"
     },
     {
       "id": "startup-ceo",
       "name": "Startup CEO Coordinator",
       "description": "CEO coordinator that dispatches to 4 specialist agents via A2A",
       "category": "business",
-      "tags": ["multi-agent", "a2a", "startup", "advisory", "orchestration"],
+      "tags": [
+        "multi-agent",
+        "a2a",
+        "startup",
+        "advisory",
+        "orchestration"
+      ],
       "path": "skills/startup-ceo/SKILL.md",
-      "atmosphere_sample": "spring-boot-multi-agent-startup-team"
+      "atmosphere_sample": "spring-boot-multi-agent-startup-team",
+      "sha256": "85675f8ff228068734ee6291fed4b248092c366754660d080b40ab0915e77f9a"
     },
     {
       "id": "ai-assistant",
       "name": "AI Chat Assistant",
       "description": "Streaming chat assistant with conversation memory",
       "category": "general",
-      "tags": ["chat", "streaming", "general-purpose"],
+      "tags": [
+        "chat",
+        "streaming",
+        "general-purpose"
+      ],
       "path": "skills/ai-assistant/SKILL.md",
-      "atmosphere_sample": "spring-boot-ai-chat"
+      "atmosphere_sample": "spring-boot-ai-chat",
+      "sha256": "b438a0a2996157b2b29bdcdd7bd5177ed9e556eb920f7d064101cc75ee31802d"
     },
     {
       "id": "classroom",
       "name": "AI Classroom",
       "description": "Multi-room AI classroom where all students see AI responses simultaneously",
       "category": "education",
-      "tags": ["classroom", "multi-room", "education", "broadcast"],
+      "tags": [
+        "classroom",
+        "multi-room",
+        "education",
+        "broadcast"
+      ],
       "path": "skills/classroom/SKILL.md",
-      "atmosphere_sample": "spring-boot-ai-classroom"
+      "atmosphere_sample": "spring-boot-ai-classroom",
+      "sha256": "db553e377e2723e9b2f6cfb00bafb885e82a8b3f07fda7aecbb069a17190b372"
     },
     {
       "id": "tool-assistant",
       "name": "Tool-Calling Assistant",
       "description": "Tool-calling pipeline with cost metering and approval workflows",
       "category": "tools",
-      "tags": ["tools", "function-calling", "weather", "time", "cost-metering"],
+      "tags": [
+        "tools",
+        "function-calling",
+        "weather",
+        "time",
+        "cost-metering"
+      ],
       "path": "skills/tool-assistant/SKILL.md",
-      "atmosphere_sample": "spring-boot-ai-tools"
+      "atmosphere_sample": "spring-boot-ai-tools",
+      "sha256": "b355c0966fa434451118ae6ba13fbe695057f2601875a050ad5cc69be75411bf"
     },
     {
       "id": "rag-assistant",
       "name": "RAG Knowledge Assistant",
       "description": "Knowledge base assistant with document retrieval and citation",
       "category": "rag",
-      "tags": ["rag", "retrieval", "embeddings", "documents", "knowledge-base"],
+      "tags": [
+        "rag",
+        "retrieval",
+        "embeddings",
+        "documents",
+        "knowledge-base"
+      ],
       "path": "skills/rag-assistant/SKILL.md",
-      "atmosphere_sample": "spring-boot-rag-chat"
+      "atmosphere_sample": "spring-boot-rag-chat",
+      "sha256": "5e563758daeae54958d62a8dda7d3b4fca14ac61cc218e5158888680ac495a82"
+    },
+    {
+      "id": "llm-judge",
+      "name": "LLM Result Evaluator",
+      "description": "LLM-as-judge for scoring agent response quality",
+      "category": "evaluation",
+      "tags": [
+        "evaluation",
+        "quality",
+        "llm-judge",
+        "scoring"
+      ],
+      "path": "skills/llm-judge/SKILL.md",
+      "sha256": "2d092f702ba3c094e17b90efb5c0a253737e1fb41f911d5d695dabdfc95200d7"
     }
   ]
 }
